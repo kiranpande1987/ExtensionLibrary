@@ -17,8 +17,6 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
-
                 groupId = 'com.github.kiranpande1987'
                 artifactId = 'extension-functions'
                 version = '1.0.0'

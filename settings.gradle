@@ -1,3 +1,4 @@
+include ':mylibrary'
 include ':Extensions'
 include ':app'
 rootProject.name = "ExtensionLibrary"
